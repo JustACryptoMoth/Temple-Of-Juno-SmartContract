@@ -6,13 +6,13 @@ The purpose of this project is to create a Rust smart contract on CosmWasm with 
 
 Release functionality:
 
-Users have the ability to connect their Keplr wallet with the frontend application. This is a requirement to perform all other actions, as all other actions require $JUNO Keplr transactions.
-Users have the ability to create polls with default or customized poll responses by signing a transaction. Polls and their poll response options are permanent and cannot be changed.
-Users have the ability to upvote or downvote on polls by signing a transaction; this is synonymous with the "popularity" of the poll. Upvote/downvote on polls can be changed with a new transaction.
-Users have the ability to vote on a poll for a specific poll answer choice by signing a transaction. The voted choice of polls can be changed with a new transaction.
+* Users have the ability to connect their Keplr wallet with the frontend application. This is a requirement to perform all other actions, as all other actions require $JUNO Keplr transactions.
+* Users have the ability to create polls with default or customized poll responses by signing a transaction. Polls and their poll response options are permanent and cannot be changed.
+* Users have the ability to upvote or downvote on polls by signing a transaction; this is synonymous with the "popularity" of the poll. Upvote/downvote on polls can be changed with a new transaction.
+* Users have the ability to vote on a poll for a specific poll answer choice by signing a transaction. The voted choice of polls can be changed with a new transaction.
 
 Stretch goal functionality:
-Users have the ability to tip the asker of a poll by signing a transaction and specifying the amount of $JUNO they would like to tip.
+* Users have the ability to tip the asker of a poll by signing a transaction and specifying the amount of $JUNO they would like to tip.
 
 
 Dependencies:
